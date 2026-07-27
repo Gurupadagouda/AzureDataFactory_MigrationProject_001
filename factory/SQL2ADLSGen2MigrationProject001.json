@@ -1,0 +1,15 @@
+{
+	"name": "SQL2ADLSGen2MigrationProject001",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "16bb4425-1a84-4474-840f-0e83c2b4acc7",
+		"tenantId": "c8cd78e5-67f2-48ae-b5b6-15c87710257b"
+	}
+}
