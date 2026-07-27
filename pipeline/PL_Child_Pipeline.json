@@ -152,11 +152,11 @@
 								},
 								"waitOnCompletion": true,
 								"parameters": {
-									"TableName": {
+									"TableSchema": {
 										"value": "@pipeline().parameters.TableSchema",
 										"type": "Expression"
 									},
-									"TableSchema": {
+									"TableName": {
 										"value": "@pipeline().parameters.TableName",
 										"type": "Expression"
 									},
