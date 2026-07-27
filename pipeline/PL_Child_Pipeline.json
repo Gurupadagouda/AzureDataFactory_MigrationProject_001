@@ -43,7 +43,7 @@
 			},
 			{
 				"name": "IF_New_Record_Exists",
-				"description": "Check if new records exists in on prem table",
+				"description": "Check if new records exists in on prem table => Run Copy Activity if LastLoadedRecord (LastLoadValue) value is null else if MaxValue > LastloadValue then New record exists Run the Incremental Load (Execute Stored Procedure)",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
