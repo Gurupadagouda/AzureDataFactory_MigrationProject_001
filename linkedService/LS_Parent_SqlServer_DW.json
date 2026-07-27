@@ -16,6 +16,7 @@
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
 			"type": "IntegrationRuntimeReference"
-		}
+		},
+		"description": "Self hosted IR for on Prem - SQL server"
 	}
 }
